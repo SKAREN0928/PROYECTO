@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MIKY'S</title>
+		
+</head>
+<body background="2.jpg" style="background-repeat: no-repeat; background-attachment: fixed; background-size: 100%; ">
+	<hr size="8" color="purple">
+ <a href="index.html"><img src="5.1.png" width="280" height="150"></a>
+
+	<table align="right" border="0" widht="150%">
+
+		<td><font size="6"><a href="index.html"><img src="2.2.png" width="180" height="110"></a></font></td>
+		<td><font size="6"><a href="Catalogos.html"><img src="catalogo.png" width="180" height="110"></a></font></td>
+		<td><font size="6"><a href="contactos.html"><img src="contactos.png" width="180" height="110"></a></font></td>
+		<td><font size="6"><a href="formulario.html"><img src="inventario.png" width="180" height="110"></a></font></td>
+		<td><font size="6"><a href="cuestionario.html"><img src="cuestionario.png" width="180" height="110"></a></font></td>
+	</table>
+	<hr size="8" color="purple">
+	
+
+	<form method="post" action="formulario.php"> 
+
+		<center> 
+
+			<table border="3" align="center" width="70%">
+
+				<tr>
+					<th colspan="4"  height="80"><font color="white" face="verdana" style="font-size:  30px"> Elija la categoria del producto</font></th>
+				</tr>
+
+				<tr>
+					<td colspan="4" height="30"></td>
+				</tr>
+
+				<tr>
+					<td  width="100" rowspan="4" >
+						
+							<select  name="categoria" size="6" style=" font-size: 20px; width:250px; height: 180px;">
+
+								<option value="ANCHETAS">ANCHETAS</option>
+								<option value="DECORACIONES">DECORACIONES</option>
+								<option value="GLOBOS">GLOBOS</option>
+								<option value="QUID DE FIESTA">KIT'S DE FIESTA</option>
+								<option value="ADQUILERES">ALQUILERES</option>
+								
+
+							</select>
+					</td>
+
+					<td height="50" ><font color="white" face="verdana" style="font-size:  18px" ><b>Cantidad</b></font></td>
+				</tr>
+
+				<tr>
+					<td  colspan="2" ><input type="text" style="color: black; font-size :18px; " class="Bordes" name="C" size="60%"></td>
+				</tr>
+
+
+				<tr>
+					<td  height="50"><font color="white" face="verdana" style="font-size:  18px" ><b>Valor unitario</b></font></td>
+				</tr>
+
+				<tr>
+					<td  colspan="2"><input type="text" style="color: black; font-size :18px; " class="Bordes" name="V" size="60%"></td>
+					<tr>
+					<td height="50"></td>
+				</tr>
+				</tr>
+
+
+
+				<tr>
+					<td  width="500" height="50" colspan="4"><font color="white" face="verdana" style="font-size:  18px" ><b> Descripcion del producto</b></font></td>
+				</tr>
+
+				<tr>
+					<td><textarea name="Descripcion" rows="5" cols="60" maxlength="100"></textarea></td>	
+				</tr>
+
+				
+				<tr>
+					<td  height="50"><font color="white" face="verdana" style="font-size:  18px" ><b>Valor unitario</b></font></td>
+					<td  colspan="2"><input type="radio" name="Efectivo"><font color="white" face="verdana" style="font-size:  20px" >Efectivo <input type="radio" name="Tarjeta" ><font color="white" face="verdana" style="font-size:  20px" >Tarjeta </td>
+				</tr>
+
+                <tr>
+                	    <td width="100%" colspan="4" height="50">
+						<center><input type="submit"  name="generar" value="Generar"></center>
+					</td>
+                 </tr>   
+
+
+
+
+				</table>
+
+			</center>
+
+		</form>
+
+		<br><br><br><br>
+		
+	</body>
+	</html>
