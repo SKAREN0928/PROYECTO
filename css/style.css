@@ -60,7 +60,7 @@ a {
 	color: black;
 }
 .header--nav-container a:hover{
-	border: solid 2px #b01739;
+	border: solid 2px #7817b0;
 }
 .nav--menu-container {
 	display: flex;
@@ -71,11 +71,12 @@ a {
 .main--inicio {
 	display: flexbox;
 	text-align: center;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 .main--inicio-content {
 	margin-top: 35px;
 	margin-bottom: 35px;
+	margin-left: 35px;
 }
 .main--inicio-body h1{
 	font-size: 4rem;
@@ -85,6 +86,9 @@ a {
 .main--inicio-body p{
 	font-size: 1.8rem;
 	font-weight: 300;
+	margin-left: 20px;
+	margin-right: 20px;
+
 }
 .main--inicio-images-content {
 	width: 100%;
@@ -93,8 +97,211 @@ a {
 	grid-template-columns: 1fr 1fr;
 }
 .main--inicio-images-content img {
+	width: 700px;
+	height: 550px;
+}
+/* about */
+.main--about {
+	display: flexbox;
+	text-align: center;
+	margin: 30px 100px 30px 100px;
+	background-image: url(../asset/images/2.jpg);
+}
+.main--about-body{
+	margin-bottom: 30px;
+}
+.main--about-body h1{
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-bottom: 15px;
+}
+.main--about-body p{
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.main--about-mision-and-vision {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 50px;
+	justify-content: center;
+	margin-bottom: 30px;
+		
+}
+.main--about-mision-and-vision h2{
+	font-size: 3rem;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.main--about-mision-and-vision p{
+	font-size: 1.8rem;
+	text-align: justify;
+	font-weight: 500;
+	
+}
+.main--about-valores h1{
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-bottom: 15px;
+}
+.main--about-valores p {
+	font-size: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 5px;
+}
+/*catalogo*/
+
+.main--catalogo {
+	margin: 30px 100px 30px 100px;
+}
+.main--catalogo-content{
+	display: flexbox;
+	text-align: center;
+}
+.main--catalogo-body h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-bottom: 15px;
+}
+.main--catalogo-body p{
+	font-size: 1.8rem;
+	text-align: justify;
+	font-weight: 500;
+}
+.main--catalogo-images-content {
+	width: 100%;
+	height: auto;
+	display: grid;
+}
+.main--catalogo-images-content img {
+	width: 350px;
+	height: 500px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+.main--catalogo-images-content h2{
+	width: 100%;
+	height: auto;
+	display: grid;
+	padding:20px;
+	background-color: #fcfcfc;
+}
+/* contactos */
+.main--contactos {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-image: url(../asset/images/fondo-celebracion-cielo-azul_37499-11.jpg);	
+}
+
+.main--contactos-content {
+	margin-left: 35px;
+	margin-bottom: 35px;
+	margin-right: 35px;
+}
+.main--contactos-body h1{
+	font-size: 4rem;
+	font-weight: 700;
+	margin-top: 15px;
+	letter-spacing: 5px;
+}
+
+.main--contactos-images-content {
+	width: 100%;
+	height: auto;
+	display: grid;
+}
+.main--contactos-images-content img {
 	width: 600px;
+	height: 500px;
+}
+
+.main--contactos-icons {
+	display: flexbox;
+	text-align: center;
+}
+.main--contactos-iconos h2{
+	font-size: 4rem;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+
+.main--contactos-face img{
+	width: 400px;
 	height: 300px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.main--contactos-whatsapp img{
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.products--body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	margin-top: 30px;
+	padding-top: 15px;
+}
+.products--body article {
+	display: inline-block;
+	max-width: 320px;
+	height: 620px;
+	margin-bottom: 40px;
+}
+.product--container img{
+	width: 100%;
+}
+.product--container h3 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+.product--container p {
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.product--button {
+	font-size: 1.2rem;
+	margin-top: 30px;
+	padding: 15px 30px 15px 30px;
+	border: 1px solid #ffbc5a;
+	background-color: #f9f871;
+}
+.product--button:hover {
+	border: 1px solid #9b3f6b;
+	background-color: #d46166;
+	color: white;
+}
+/* anchetas */
+.main--anchetas {
+	margin: 30px 100px 30px 100px;
+}
+.main--anchetas-content {
+	display: inline-block;
+}
+.main--anchetas-content h1{
+	font-size: 4rem;
+	font-weight: 700;
+	margin-top: 15px;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.anchetas--body {
+	display: inline-block;
+	margin-top: 30px;
+}
+.anchetas--body article{
+	max-width: 200px;
+	height: 200px;
 }
 /* Footer */
 footer{
@@ -122,9 +329,9 @@ footer{
 	letter-spacing: 5px;
 }
 .footer--contacts{
-	font-size: 1.2rem;
+	font-size: 2rem;
 	font-weight: 300;
-	margin-left: 30px;
+	margin-left: 80px;
 	border-left: 1px solid black;
 	padding-left: 15px;
 }
